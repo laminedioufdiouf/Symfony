@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Salut BlogController!{% endblock %}
+
+{% block body %}
+    <section class="employers">
+        <employer>
+                    <h2>Services des employers</h2>
+            <div class="identite">l'identifiant des employers</div>
+            <div class="nom">
+                <img src="http://placehold.it/350x150" alt="">
+                <p> nomcomplet de l'employer dans le service</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+            </div>
+        </employer>
+        <employer>
+                    <h2>Services des employers</h2>
+            <div class="identite">l'identifiant des employers</div>
+            <div class="nom">
+                <img src="http://placehold.it/350x150" alt="">
+                <p> nomcomplet de l'employer dans le service</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+            </div>
+        </employer>
+        <employer>
+                    <h2>Services des employers</h2>
+            <div class="identite">l'identifiant des employers</div>
+            <div class="nom">
+                <img src="http://placehold.it/350x150" alt="">
+                <p> nomcomplet de l'employer dans le service</p>
+                <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+            </div>
+        </employer>
+    </section>
+{% endblock %}
